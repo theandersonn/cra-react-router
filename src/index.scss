@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &::before,
+  &::after {
+    box-sizing: inherit
+  }
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family:  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 1.6rem;
+  color: #545252;
+  background-color: #FBFCFE;
+}
+
+// PAGES 
+.section-page {
+  padding: 2.5rem 1.6rem;
+
+  h1 {
+    margin-bottom: 1.6rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+  }
+
+  p {
+    margin-bottom: 1.6rem;
+  }
+}
